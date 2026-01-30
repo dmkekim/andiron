@@ -6,6 +6,8 @@ EUR to USD exchange rate summary with pattern analysis. Built with FastAPI.
 
 🍍
 
+![Dashboard](dashboard.png)
+
 ## Quick Start
 
 ```bash
