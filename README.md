@@ -9,6 +9,10 @@ EUR to USD exchange rate summary with pattern analysis. Built with FastAPI.
 ## Quick Start
 
 ```bash
+# Clone the repo
+git clone https://github.com/dmkekim/andiron.git
+cd andiron
+
 # Create and activate virtual environment
 python3 -m venv venv
 source venv/bin/activate
@@ -18,8 +22,6 @@ pip install -r requirements.txt
 
 # Run the server
 python main.py
-# or
-uvicorn main:app --reload --port 8000
 ```
 
 Server runs on http://localhost:8000
