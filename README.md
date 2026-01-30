@@ -26,6 +26,11 @@ python main.py
 
 Server runs on http://localhost:8000
 
+> **Note:** If port 8000 is in use, run with a different port:
+> ```bash
+> uvicorn main:app --port 8001
+> ```
+
 ## Endpoints
 
 ### `GET /health`
